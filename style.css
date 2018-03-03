@@ -1,0 +1,33 @@
+.wrapper {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrapper-inner {
+  transform: translateY(10px);
+  transition: all .3s;
+}
+
+header {
+  text-align: center;
+  font-size: 40px;
+}
+
+.side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side__l,
+.side__r {
+  flex: 0 0 50%;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+/* ///// */
+
+.sc {
+  height: 100vh;
+}
