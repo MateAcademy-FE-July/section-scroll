@@ -29,7 +29,8 @@ button.addEventListener('click', ()=>{
 });
 
 // don't work ? :( 
-window.addEventListener('scroll', ()=>{
+// wheel ? scroll? wheeldown?
+window.addEventListener('wheel', ()=>{
   // direction ? top, bottom
   // change window position DRY
   console.log('SCROLLLLL');
