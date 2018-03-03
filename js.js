@@ -22,7 +22,15 @@ function getTransformV() {
 
 
 button.addEventListener('click', ()=>{
+  // changeDirection();
   var currentPosition = getTransformV();
   currentPosition =- window.innerHeight;
   wrapper.style.transform = 'matrix(1,0,0,1,0,' + currentPosition + ')';
+});
+
+// don't work ? :( 
+window.addEventListener('scroll', ()=>{
+  // direction ? top, bottom
+  // change window position DRY
+  console.log('SCROLLLLL');
 });
